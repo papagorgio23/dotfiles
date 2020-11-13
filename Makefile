@@ -84,7 +84,7 @@ apps:
 
 dotfiles:
 	mkdir code && cd code
-	git clone https://github.com/Jason-Adam/dotfiles.git
+	git clone https://github.com/papagorgio23/dotfiles.git
 	ln -s -f ~/code/dotfiles/.vimrc ~/.vimrc
 	ln -s -f ~/code/dotfiles/.zshrc ~/.zshrc
 	ln -s -f ~/code/dotfiles/.tmux.conf ~/.tmux.conf
