@@ -1,0 +1,10 @@
+[user]
+    name = Jason Lee
+    email = jason@aisportsfirm.com
+    username = papagorgio23
+
+[core]
+    editor = vscode
+
+[web]
+    browser = google-chrome
