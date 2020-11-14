@@ -1,4 +1,4 @@
-PYTHON_VERSION := 3.8.2
+PYTHON_VERSION := 3.9.0
 
 .PHONY: homebrew terminal cli cli_upgrade apps dotfiles language_servers setup_rust gcloud_sdk setup_pyenv
 
@@ -105,5 +105,7 @@ gcloud_sdk:
 	curl https://sdk.cloud.google.com | bash
 
 setup_pyenv:
+	CFLAGS="-I$(brew --prefix openssl)/include -I$(brew --prefix readline)/include -I$(xcrun --show-sdk-path)/usr/include" \
+	LDFLAGS="-L$(brew --prefix openssl)/lib -L$(brew --prefix readline)/lib -L$(xcrun --show-sdk-path)/usr/lib" \
 	pyenv install -v $(PYTHON_VERSION)
 	pyenv global $(PYTHON_VERSION)
