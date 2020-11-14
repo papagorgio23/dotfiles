@@ -6,7 +6,7 @@ export GOPATH=$HOME/go
 
 # Path to your oh-my-zsh installation.
 ZSH_DISABLE_COMPFIX=true
-export ZSH="/Users/jasonadam/.oh-my-zsh"
+export ZSH="/Users/jason/.oh-my-zsh"
 
 ###################################################
 # Misc
@@ -68,10 +68,10 @@ alias rstudio='open -a RStudio'
 
 # gcloud autocomplete
 # The next line updates PATH for the Google Cloud SDK.
-if [ -f '/Users/jasonadam/google-cloud-sdk/path.zsh.inc' ]; then . '/Users/jasonadam/google-cloud-sdk/path.zsh.inc'; fi
+if [ -f '/Users/jason/google-cloud-sdk/path.zsh.inc' ]; then . '/Users/jason/google-cloud-sdk/path.zsh.inc'; fi
 
 # The next line enables shell command completion for gcloud.
-if [ -f '/Users/jasonadam/google-cloud-sdk/completion.zsh.inc' ]; then . '/Users/jasonadam/google-cloud-sdk/completion.zsh.inc'; fi
+if [ -f '/Users/jason/google-cloud-sdk/completion.zsh.inc' ]; then . '/Users/jason/google-cloud-sdk/completion.zsh.inc'; fi
 
 export PATH="/usr/local/opt/llvm/bin:$PATH"
 export PATH=$PATH:"$GOPATH/bin"
