@@ -4,7 +4,7 @@ PYTHON_VERSION := 3.9.0
 
 homebrew:
 	cd
-	/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
+	/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 
 terminal:
 	cd
