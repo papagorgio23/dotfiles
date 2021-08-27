@@ -65,22 +65,22 @@ cli_upgrade:
 	brew upgrade shellcheck
 
 apps:
-	brew cask install iterm2
-	brew cask install slack
-	brew cask install keeper-password-manager
-	brew cask install alfred
-	brew cask install spectacle
-	brew cask install docker
-	brew cask install r
-	brew cask install rstudio
-	brew cask install google-chrome
-	brew cask install intellij-idea
-	brew cask install clion
-	brew cask install google-backup-and-sync
-	brew cask install gpg-suite-no-mail
-	brew cask install spotify
-	brew cask install visual-studio-code
-	brew cask install zoom
+	brew install iterm2
+	brew install slack
+	brew install keeper-password-manager
+	brew install alfred
+	brew install spectacle
+	brew install docker
+	brew install r
+	brew install rstudio
+	brew install google-chrome
+	brew install intellij-idea
+	brew install clion
+	brew install google-backup-and-sync
+	brew install gpg-suite-no-mail
+	brew install spotify
+	brew install visual-studio-code
+	brew install zoom
 
 dotfiles:
 	mkdir code && cd code
