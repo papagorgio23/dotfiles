@@ -66,6 +66,13 @@ alias lst='exa --group-directories-first --tree'
 alias llt='exa --group-directories-first --long --tree'
 alias rstudio='open -a RStudio'
 
+# cd aliases
+alias ..="cd .."
+alias ...="cd ../.."
+alias ....="cd ../../.."
+alias .....="cd ../../../.."
+alias ......="cd ../../../../.."
+
 # gcloud autocomplete
 # The next line updates PATH for the Google Cloud SDK.
 if [ -f '/Users/jason/google-cloud-sdk/path.zsh.inc' ]; then . '/Users/jason/google-cloud-sdk/path.zsh.inc'; fi
