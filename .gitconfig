@@ -4,7 +4,13 @@
     username = papagorgio23
 
 [core]
-    editor = vscode
+	editor = code --wait
 
 [web]
     browser = google-chrome
+
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
