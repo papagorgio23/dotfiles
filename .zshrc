@@ -65,6 +65,14 @@ alias ll='exa --group-directories-first --long'
 alias lst='exa --group-directories-first --tree'
 alias llt='exa --group-directories-first --long --tree'
 alias rstudio='open -a RStudio'
+alias ais='cd && cd Documents/Business\ Ideas/Sports\ Investment\ Firm/GitHub/'
+
+# cd aliases
+alias ..="cd .."
+alias ...="cd ../.."
+alias ....="cd ../../.."
+alias .....="cd ../../../.."
+alias ......="cd ../../../../.."
 
 # gcloud autocomplete
 # The next line updates PATH for the Google Cloud SDK.
