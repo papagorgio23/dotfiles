@@ -59,11 +59,11 @@ source <(kubectl completion zsh)
 # Aliases
 alias reload!='clear && source ~/.zshrc'
 alias cat='bat'
-alias ls='exa --group-directories-first'
-alias la='exa --group-directories-first --all'
-alias ll='exa --group-directories-first --long'
-alias lst='exa --group-directories-first --tree'
-alias llt='exa --group-directories-first --long --tree'
+alias ls='eza --group-directories-first'
+alias la='eza --group-directories-first --all'
+alias ll='eza --group-directories-first --long'
+alias lst='eza --group-directories-first --tree'
+alias llt='eza --group-directories-first --long --tree'
 alias rstudio='open -a RStudio'
 
 # cd aliases
